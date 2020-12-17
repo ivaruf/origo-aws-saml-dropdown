@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "AwsSmlDrop",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://signin.aws.amazon.com/saml"
+      ],
+      "js": ["jquery.js", "select2.min.js", "content.js"],
+      "css" : ["select2.min.css"]
+    }
+  ]
+}
