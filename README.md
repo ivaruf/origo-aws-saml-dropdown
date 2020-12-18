@@ -1,4 +1,5 @@
-# Origo-aws-saml-dropdown
+
+# !["logo"](https://github.com/ivaruf/origo-aws-saml-dropdown/raw/master/icon.png) Origo-aws-saml-dropdown
 Converts radio button to select2 dropdown when signing into AWS 
 
 
