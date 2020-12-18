@@ -11,11 +11,13 @@ for (let account of accounts) {
     accountName = fullAccountName.substring(15)
     radio = account.getElementsByClassName("saml-radio")[0]
 
-    console.log(radio)
-    
+    idparts = radio.id.split("/")
+    role = idparts[idparts.length -1]
+
+    selecttext = accountName + " " + role
+
     option = document.createElement('option')
-    
-    option.innerText = accountName
+    option.innerText = selecttext
     option.setAttribute("value", radio.id)
     
     select.appendChild(option)
