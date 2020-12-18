@@ -10,5 +10,6 @@
       "js": ["jquery.js", "select2.min.js", "content.js"],
       "css" : ["select2.min.css"]
     }
-  ]
+  ],
+  "icons": { "48": "icon.png" }
 }
